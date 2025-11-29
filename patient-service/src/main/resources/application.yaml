@@ -1,3 +1,4 @@
 spring:
   application:
     name: patient-service
+chacking if the info is visible from git
