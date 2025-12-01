@@ -9,10 +9,10 @@ import java.time.LocalDate;
 public class PatientMapper {
     public static PatientResponseDTO toDTO(Patient patient) {
         PatientResponseDTO patientDTO = new PatientResponseDTO();
-        patientDTO.setId(patientDTO.getId().toString());
+        patientDTO.setId(patientDTO.getId());
         patientDTO.setFullname(patient.getFullname());
         patientDTO.setEmail(patient.getEmail());
-        patientDTO.setDateOfBirth(patientDTO.getDateOfBirth().toString());
+        patientDTO.setDateOfBirth(patientDTO.getDateOfBirth());
         return  patientDTO;
 
     }
